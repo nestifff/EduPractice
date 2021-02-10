@@ -1,0 +1,12 @@
+D:\University\Предметы\EduPractice> git log
+commit a669c352455d98827766d91fad050a21bb9863ff (HEAD -> master)
+Author: nestifff <nestiv.01.12@gmail.com>
+Date:   Wed Feb 10 10:39:03 2021 +0300
+
+    add D:\University\Предметы\EduPractice\task1\status.txt
+
+commit f1368c2937c196dd0eef3274d1a143dd831b95c4
+Author: nestifff <nestiv.01.12@gmail.com>
+Date:   Wed Feb 10 10:37:22 2021 +0300
+
+    add .gitignore
