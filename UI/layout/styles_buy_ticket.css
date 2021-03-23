@@ -1,0 +1,24 @@
+.img_buy_poster {
+    height: 300px;
+    width: 210px;
+}
+
+.wrap_image {
+    margin-top: 10px;
+    padding-left: 32px;
+    float: left;
+    width: 240px;
+    height: fit-content;
+}
+
+.right_of_img {
+    margin-left: 240px;
+    padding-left: 16px;
+    padding-top: 24px;
+    height: fit-content;
+}
+
+.under_img_text {
+    width: 100%;
+    padding-top: 32px;
+}

@@ -1,0 +1,43 @@
+.hashtags_list_to_choose {
+    height: 180px;
+    width: 140px;
+    overflow: scroll;
+    margin-left: 12px;
+    overflow-x: hidden;
+}
+
+.hashtags_list_to_choose ul {
+    list-style: none;
+    margin-left: 0px;
+    padding: 4px;
+}
+
+.hashtags_list_to_choose li {
+    font-size: 14px;
+}
+
+.one_item {
+    margin-top: 32px;
+    padding-left: 16px;
+    margin-right: 54px;
+    padding-bottom: 2px;
+    padding-top: 4px;
+    background-color: #ccc4e5;
+    border-radius: 8px;
+}
+
+.one_item p {
+    padding-right: 4px;
+}
+
+.hashtags_in_post {
+    color: #354C7A;
+}
+
+.like {
+    float: right;
+    height: 32px;
+    width: 32px;
+    margin-right: 8px;
+    margin-top: 8px;
+}

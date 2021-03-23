@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles_index.css">
+    <link rel="stylesheet" href="styles_common.css">
+</head>
+
+<body id="main_body" style="margin: 0; font-family: Comic Sans MS">
+
+<div class="header" id="dv_main_header">
+    <a href="index.html" class="logo">Заказ билетов на концерт</a>
+    <div class="header-right">
+        <a class="link_active" href="index.html">Концерты</a>
+        <a class="link" href="posts_list.html">Все посты</a>
+        <a class="link" href="#">Добавить пост</a>
+        <a class="link" href="#">Выход</a>
+        <a class="text_user_name">user_name</a>
+    </div>
+</div>
+
+<div class="div_content" id="dv_main_content">
+
+    <div class="left_content">
+
+        <h2> Фильтры</h2>
+        <div class="genres_list">
+            <ul style="padding-left: 10px">
+                <li><h3><span class="dot"></span> Категории</h3>
+                    <ul>
+                        <li><input type="checkbox">Дискотеки</li>
+                        <li><input type="checkbox">Юмор</li>
+                        <li><input type="checkbox">Музыкальные коцерты</li>
+                    </ul>
+                </li>
+                <li><h3><span class="dot"></span> Цена</h3></li>
+            </ul>
+        </div>
+
+        <div class="filter_cost">
+            <form>
+                <label for="cost_from">От:</label>
+                <input type="number" id="cost_from" name="cost_from"><br><br>
+                <label for="cost_to">До:</label>
+                <input type="number" id="cost_to" name="cost_to">
+            </form>
+        </div>
+        <br><br>
+
+        <form>
+            <button class="button">Применить</button>
+        </form>
+
+    </div>
+
+    <div class="right_content">
+
+        <div class="right_content_head">
+            <h1>Все концерты</h1>
+            <div>
+                <p style="text-align: end; padding-right: 32px; padding-top: 0px">Сортировать: <input type="checkbox">
+                    Цена <input type="checkbox"> Время </p>
+            </div>
+            <hr>
+        </div>
+
+        <div id="concerts_list" style="padding-left: 32px; padding-top: 24px">
+            <div id="one_item">
+                <a href="buy_ticket.html">
+                    <img class="img_list_poster" src="../drawable/music_nightwish.jpg"/>
+                </a>
+                <p>
+                <pre style="font-family: Comic Sans MS"><b style="font-size: 20px">Концерт Hightwish</b>
+
+Музыкальный концерт
+16 сентября
+Falcon club
+<b>Цена: 93 рубля</b></pre>
+                </p>
+                <br>
+            </div>
+
+            <div id="one_item_2">
+                <img class="img_list_poster" src="../drawable/music_nightwish.jpg"/>
+                <p>
+                <pre style="font-family: Comic Sans MS"><b style="font-size: 16px">Концерт Hightwish</b>
+Музыкальный концерт
+16 сентября
+Falcon club</pre>
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<footer id="dv_main_footer">
+    <hr>
+    <pre style="font-family: Comic Sans MS; font-size: 16px; color: #7E7D81; padding-left: 16px">11 вариант. Заказ билетов на концерт.  Свинтилова Анастасия, 2 курс, 8 группа    nestiv.01.12@gmail.com
+08.03.2021, 23:55</pre>
+</footer>
+
+
+</body>
+
+</html>

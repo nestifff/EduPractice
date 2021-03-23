@@ -1,0 +1,28 @@
+
+.genres_list ul{
+    list-style: none;
+}
+
+.filter_cost {
+    padding-left: 48px;
+}
+
+input[type=number]{
+    width: 80px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #6A4BC5;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.img_list_poster {
+    height: 200px;
+    width: 140px;
+}
+
+
+
