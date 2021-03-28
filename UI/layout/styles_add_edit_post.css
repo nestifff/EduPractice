@@ -1,0 +1,13 @@
+.hashtags_choose_left {
+    /*margin-left: 42px;*/
+    width: 30%;
+    float: left;
+    background: #ccc4e5
+}
+
+.hashtags_new_right {
+    /*margin-left: 16px;*/
+    width: 70%;
+    float: left;
+    background: #7E7D81;
+}
